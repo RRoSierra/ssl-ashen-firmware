@@ -1,0 +1,31 @@
+# MemPalace per-project files (issue #185)
+mempalace.yaml
+entities.json
+
+# Third-party SDK: separate git repo (WeActStudio/MiniSTM32H7xx), clone it separately
+MiniSTM32H7xx/
+
+# Local tooling / Python environments
+.claude/
+.venv/
+__pycache__/
+*.py[cod]
+
+# STM32CubeIDE / Eclipse user metadata
+.settings/
+*.launch
+
+# Build output
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.axf
+*.map
+*.lst
+*.hex
+*.bin
+*.out
